@@ -53,7 +53,7 @@ Your JSON file should follow this structure:
 
 ## 📦 Dependencies
 
-dom-to-image: Used to convert the generated card DOM element to a JPEG image for download.
+[dom-to-image](https://github.com/tsayen/dom-to-image): Used to convert the generated card DOM element to a JPEG image for download.
 ## 🙌 Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests to help improve this project.
