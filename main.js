@@ -1,5 +1,8 @@
 document.getElementById('json-upload').addEventListener('change', loadJSONFromFile);
 document.getElementById('json-select').addEventListener('change', loadJSONFromDropdown);
+document.getElementById('download-json').addEventListener('click', downloadJSON);
+
+let currentJSON = null;
 
 function loadJSONFromFile(event) {
     const file = event.target.files[0];
@@ -46,6 +49,7 @@ function generateCard(json) {
 
     const cardElement = document.getElementById('mtg-card');
     cardElement.style.borderColor = getColorFromIdentity(json.colorIdentity[0]);
+    currentJSON = json;
 }
 
 function getColorFromIdentity(color) {
@@ -64,3 +68,16 @@ function getColorFromIdentity(color) {
             return '#ccc';
     }
 }
+
+function downloadJSON() {
+    if (currentJSON) {
+        const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(currentJSON));
+        const downloadAnchorNode = document.createElement('a');
+        downloadAnchorNode.setAttribute("href", dataStr);
+        downloadAnchorNode.setAttribute("download", "mtg_card.json");
+        document.body.appendChild(downloadAnchorNode); // Required for Firefox
+        downloadAnchorNode.click();
+        downloadAnchorNode.remove();
+    }
+}
+
