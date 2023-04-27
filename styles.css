@@ -25,18 +25,46 @@ body {
     flex-direction: column;
 }
 
-.card-title,
-.card-type,
-.card-mana-cost,
-.card-text,
-.card-flavor-text,
-.card-stats {
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-type {
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.card-mana-cost {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.card-flavor-text {
+    font-size: 11px;
+    font-style: italic;
+    color: #777;
     margin-bottom: 10px;
 }
 
 .card-stats {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.card-power,
+.card-toughness {
+    font-size: 14px;
+    font-weight: bold;
 }
 
 input[type="file"] {
