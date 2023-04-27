@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTG Card Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card-container">
+        <div class="card" id="mtg-card">
+            <div class="card-title" id="card-title"></div>
+            <div class="card-type" id="card-type"></div>
+            <div class="card-mana-cost" id="card-mana-cost"></div>
+            <div class="card-text" id="card-text"></div>
+            <div class="card-flavor-text" id="card-flavor-text"></div>
+            <div class="card-stats">
+                <div class="card-power" id="card-power"></div>
+                <div class="card-toughness" id="card-toughness"></div>
+            </div>
+        </div>
+    </div>
+    <input type="file" id="json-upload" accept=".json">
+    <script src="main.js"></script>
+</body>
+</html>

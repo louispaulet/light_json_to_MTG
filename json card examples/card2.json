@@ -1,0 +1,24 @@
+{
+  "name": "Manifestant à la Casserole",
+  "type": "Créature - Humain Manifestant",
+  "manaCost": "{1}{R}",
+  "convertedManaCost": 2,
+  "text": "Quand Manifestant à la Casserole arrive sur le champ de bataille, vous pouvez chercher dans votre bibliothèque une carte nommée Casserole Bruyante et la mettre sur le champ de bataille. Si vous faites ainsi, mélangez votre bibliothèque.",
+  "flavorText": "\"Ça va faire du bruit !\"",
+  "power": "1",
+  "toughness": "1",
+  "colors": [
+    "G"
+  ],
+  "colorIdentity": [
+    "G"
+  ],
+  "rarity": "Commune",
+  "set": "GFR",
+  "setName": "Set Gorafi",
+  "artist": "Sophie Dubois",
+  "number": "002",
+  "layout": "normal",
+  "multiverseid": 800002,
+  "imageUrl": "https://example.com/image/manifestant_a_la_casserole.jpg"
+}
