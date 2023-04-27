@@ -14,6 +14,7 @@ function loadJSON(event) {
 
 function generateCard(json) {
     document.getElementById('card-title').innerText = json.name;
+    document.getElementById('card-image').style.backgroundImage = `url(${json.imageUrl})`;
     document.getElementById('card-type').innerText = json.type;
     document.getElementById('card-mana-cost').innerText = json.manaCost;
     document.getElementById('card-text').innerText = json.text;
@@ -23,7 +24,6 @@ function generateCard(json) {
 
     const cardElement = document.getElementById('mtg-card');
     cardElement.style.borderColor = getColorFromIdentity(json.colorIdentity[0]);
-    console.log(json.colorIdentity[0])
 }
 
 function getColorFromIdentity(color) {
@@ -40,5 +40,5 @@ function getColorFromIdentity(color) {
             return '#A3C7AC';
         default:
             return '#ccc';
-        }
+    }
 }

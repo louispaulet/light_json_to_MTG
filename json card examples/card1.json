@@ -1,24 +1,26 @@
 {
-  "name": "Manifestant à la Casserole",
-  "type": "Créature - Humain Manifestant",
-  "manaCost": "{1}{R}",
-  "convertedManaCost": 2,
-  "text": "Quand Manifestant à la Casserole arrive sur le champ de bataille, vous pouvez chercher dans votre bibliothèque une carte nommée Casserole Bruyante et la mettre sur le champ de bataille. Si vous faites ainsi, mélangez votre bibliothèque.",
-  "flavorText": "\"Ça va faire du bruit !\"",
-  "power": "1",
-  "toughness": "1",
+  "name": "Emmanuel, Concert de Casseroles",
+  "type": "Créature légendaire - Humain Leader",
+  "manaCost": "{2}{W}{U}",
+  "convertedManaCost": 4,
+  "text": "Quand Emmanuel, Concert de Casseroles arrive sur le champ de bataille, créez un nombre de jetons Manifestant 1/1 égal au nombre de casseroles que vous contrôlez.\n\nSacrifiez une casserole : Les créatures que vous contrôlez acquièrent la célérité jusqu'à la fin du tour.",
+  "flavorText": "\"Réveillez-vous, Monsieur le Président !\"",
+  "power": "2",
+  "toughness": "3",
   "colors": [
-    "R"
+    "W",
+    "U"
   ],
   "colorIdentity": [
-    "R"
+    "W",
+    "U"
   ],
-  "rarity": "Commune",
+  "rarity": "Rare Mythique",
   "set": "GFR",
   "setName": "Set Gorafi",
-  "artist": "Sophie Dubois",
-  "number": "002",
+  "artist": "Jean-Paul Deschamps",
+  "number": "001",
   "layout": "normal",
-  "multiverseid": 800002,
-  "imageUrl": "https://example.com/image/manifestant_a_la_casserole.jpg"
+  "multiverseid": 800001,
+  "imageUrl": "https://insolentiae.com/wp-content/uploads/2023/04/Macron-casserole.jpg"
 }
