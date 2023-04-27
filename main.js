@@ -1,4 +1,26 @@
-document.getElementById('json-upload').addEventListener('change', loadJSON);
+document.getElementById('json-upload').addEventListener('change', loadJSONFromFile);
+document.getElementById('json-select').addEventListener('change', loadJSONFromDropdown);
+
+function loadJSONFromFile(event) {
+    const file = event.target.files[0];
+    const reader = new FileReader();
+
+    reader.onload = (e) => {
+        const json = JSON.parse(e.target.result);
+        generateCard(json);
+    };
+
+    reader.readAsText(file);
+}
+
+function loadJSONFromDropdown(event) {
+    const selectedFile = event.target.value;
+    if (selectedFile) {
+        fetch(selectedFile)
+            .then((response) => response.json())
+            .then((json) => generateCard(json));
+    }
+}
 
 function loadJSON(event) {
     const file = event.target.files[0];
