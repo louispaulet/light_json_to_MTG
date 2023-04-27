@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MTG Card Generator</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"></script>
 </head>
 <body>
     <div class="card-container">
@@ -21,6 +22,7 @@
             </div>
         </div>
     </div>
+    <div class="input-container">
     <select id="json-select">
         <option value="">Select a JSON card</option>
         <!-- Add the JSON card filenames here as new cards are created -->
@@ -30,9 +32,16 @@
         <option value="example_cards/card4.json">Card 4</option>
         <option value="example_cards/card5.json">Card 5</option>
     </select>
-    <br>
     <input type="file" id="json-upload" accept=".json">
-    <button id="download-json">Download JSON</button>
+    <button id="download-json">
+        <img src="icons/file_download_black_24dp.svg" alt="Download JSON" width="16" height="16">
+        Download JSON
+    </button>
+    <button id="download-card">
+        <img src="icons/photo_camera_black_24dp.svg" alt="Download Card" width="16" height="16">
+        Download Card
+    </button>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>

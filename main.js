@@ -1,8 +1,20 @@
 document.getElementById('json-upload').addEventListener('change', loadJSONFromFile);
 document.getElementById('json-select').addEventListener('change', loadJSONFromDropdown);
 document.getElementById('download-json').addEventListener('click', downloadJSON);
+document.getElementById('download-card').addEventListener('click', downloadCard);
 
 let currentJSON = null;
+
+async function downloadCard() {
+    const cardElement = document.getElementById('mtg-card');
+    const dataUrl = await domtoimage.toJpeg(cardElement, { quality: 0.95 });
+    const downloadAnchorNode = document.createElement('a');
+    downloadAnchorNode.setAttribute("href", dataUrl);
+    downloadAnchorNode.setAttribute("download", "mtg_card.jpg");
+    document.body.appendChild(downloadAnchorNode); // Required for Firefox
+    downloadAnchorNode.click();
+    downloadAnchorNode.remove();
+}
 
 function loadJSONFromFile(event) {
     const file = event.target.files[0];
