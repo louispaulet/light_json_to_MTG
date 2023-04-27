@@ -1,0 +1,18 @@
+{
+    "name": "Casserole Bruyante",
+    "type": "Artefact - Casserole",
+    "manaCost": "{1}",
+    "convertedManaCost": 1,
+    "text": "À chaque fois qu'un joueur lance un sort, mettez un marqueur bruit sur Casserole Bruyante.\n\nRetirez deux marqueurs bruit de Casserole Bruyante et sacrifiez-la : Les créatures que vous contrôlez acquièrent +1/+0 jusqu'à la fin du tour.",
+    "flavorText": "\"Le son de la révolte.\"",
+    "colors": [],
+    "colorIdentity": [],
+    "rarity": "Peu Commune",
+    "set": "GFR",
+    "setName": "Set Gorafi",
+    "artist": "Pierre Martin",
+    "number": "003",
+    "layout": "normal",
+    "multiverseid": 800003,
+    "imageUrl": "https://lepetitjournal.com/sites/default/files/styles/main_article/public/2020-05/casserolade.JPG?itok=BReB9W64"
+}

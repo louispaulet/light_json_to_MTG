@@ -1,0 +1,26 @@
+{
+  "name": "IKEA, Opportuniste des Casseroles",
+  "type": "Créature légendaire - Construct Commerçant",
+  "manaCost": "{2}{U}{B}",
+  "convertedManaCost": 4,
+  "text": "Quand IKEA, Opportuniste des Casseroles arrive sur le champ de bataille, cherchez dans votre bibliothèque jusqu'à deux cartes nommées Casserole Bruyante et mettez-les dans votre main. Mélangez ensuite votre bibliothèque.\n\n{T}, payez {2} : Créez un jeton Artefact 1/1 nommé Casserole Bruyante.",
+  "flavorText": "\"Pour chaque casserole vendue, une part des bénéfices ira aux caisses de grève !\"",
+  "power": "2",
+  "toughness": "4",
+  "colors": [
+    "U",
+    "B"
+  ],
+  "colorIdentity": [
+    "U",
+    "B"
+  ],
+  "rarity": "Rare Mythique",
+  "set": "GFR",
+  "setName": "Set Gorafi",
+  "artist": "Valérie Leroux",
+  "number": "004",
+  "layout": "normal",
+  "multiverseid": 800004,
+  "imageUrl": "https://static.jeanmarcmorandini.com/sites/jeanmarcmorandini.com/files/corps2020/fup_fbfxgaet_ne.jpg"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Cristel, Fabricant de Casseroles",
+  "type": "Créature légendaire - Artisan Humain",
+  "manaCost": "{3}{R}{W}",
+  "convertedManaCost": 5,
+  "text": "Quand Cristel, Fabricant de Casseroles arrive sur le champ de bataille, créez deux jetons Artefact 1/1 nommés Casserole Bruyante.\n\n{2}{R}, {T} : Les créatures que vous contrôlez acquièrent +1/+0 pour chaque casserole que vous contrôlez jusqu'à la fin du tour.",
+  "flavorText": "\"Nos casseroles font avancer la France !\"",
+  "power": "3",
+  "toughness": "4",
+  "colors": [
+    "R",
+    "W"
+  ],
+  "colorIdentity": [
+    "R",
+    "W"
+  ],
+  "rarity": "Rare Mythique",
+  "set": "GFR",
+  "setName": "Set Gorafi",
+  "artist": "Claude Moreau",
+  "number": "005",
+  "layout": "normal",
+  "multiverseid": 800005,
+  "imageUrl": "https://pbs.twimg.com/media/FuKALBnWwAIwrSw?format=jpg&name=900x900"
+}
